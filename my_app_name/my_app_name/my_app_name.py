@@ -17,6 +17,7 @@ def index():
     pc.button("Decrement", color_scheme="red", boarder_radius="1em", on_click=State.decrement,),
     pc.heading(State.count, size="2em"),
     pc.button("Increment", color_scheme="green", boarder_radius="1em", on_click=State.increment,),
+    pc.text("Hello World!", color="blue", font_size="1.5em"),
   )
 def about():
   return pc.text("About Page")
