@@ -1,2 +1,5 @@
-pynecone.db
+pynecone.db
+
 .web
+
+__pycache__
